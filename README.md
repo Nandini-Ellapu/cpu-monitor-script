@@ -23,11 +23,13 @@ pip install psutil
 ✅ This command will download and install psutil.
 
 # Step 2: Import the Library in Your Script
+
 Create a Python file like cpu_monitor.py and start by importing the required libraries:
 
 import psutil
 
 import time
+
 ✅ psutil: Used for system information
 
 ✅ time: Used to pause between readings
