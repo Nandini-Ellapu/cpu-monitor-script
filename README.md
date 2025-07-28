@@ -13,6 +13,7 @@ This Python script uses the `psutil` library to monitor:
 
 # Step 1: Install Required Library
 ✅ What is psutil?
+
 psutil (Python system and process utilities) is a library that gives you access to information about CPU, memory, disks, sensors, and running processes.
 🔧 Install it
 # Open a terminal or command prompt and type:
@@ -20,6 +21,7 @@ pip install psutil
 ✅ This command will download and install psutil.
 # Step 2: Import the Library in Your Script
 Create a Python file like cpu_monitor.py and start by importing the required libraries:
+
 import psutil
 import time
 ✅ psutil: Used for system information
@@ -42,6 +44,7 @@ while True:
     time.sleep(2)
 # Step 4: Run the Python File from Command Prompt
 From the directory where the script is saved, run: python cpu_monitor.py
+
 ✅ Output will show CPU usage updates every few seconds.
 
 
